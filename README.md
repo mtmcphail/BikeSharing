@@ -1,5 +1,5 @@
 # CitiBike NYC
-![NYC](./images/header.png)
+![NYC](./Images/header.png)
 
 ## Overview
 After a 2-week trip to New York City, and many hours using CitBike bikes to take in the world-famous sites, 2 friends decided to explore the possibility of starting a similar bike sharing company in their home town of Des Moines, Iowa. 
@@ -53,7 +53,7 @@ For the month of August in 2008, CitiBike NYC customers are:
 6. Teenagers (10 - 20 years old) are the highest age-group consumer, with the 20- and 30-year olds not too far behind.  As the age advances, the demand for this service decreases (inverse relation). 
 
 
-![customer](./images/customers_citibike.png)
+![customer](./Images/customers_citibike.png)
 Understanding the ages groups and the genders of the heaviest users will help guide the purchase of the largest capital investment of the bicycles themselves.  
 
 Understanding where the demand occurs (outside public transportation for commuters vs sightseeing attractions or trails for recreational users) will guide where to establish station locations.
@@ -75,7 +75,7 @@ Based on this limited data, we can see:
 
 This level of volume is not realistic for the small city of Des Moines and unfortunately, *without pricing or cost information it is difficult to understand profitability break-even points based on different levels of volume*
 
-![trip](./images/trip_citibike.png) 
+![trip](./Images/trip_citibike.png) 
 
 * The length of Trip in terms of time (i.e. Checkout Time), shows the most common trip duration is about **5 hours** and male Users are more likely to have the bikes out longer than female Users.
 
@@ -85,7 +85,7 @@ This level of volume is not realistic for the small city of Des Moines and unfor
 
 All of these findings underscore there are 2 very distinct uses for this service and as such plans for pricing, inventory types and levels, and marketing rely on this information.
 
-![trip](./images/trip_citibike2.png)
+![trip](./Images/trip_citibike2.png)
 
 **DISCLAIMER**: any visualization depicting age, uses approximate age based on number of years from birthdate to 2008.  Any birthday resulting in an age over 100 years-old was eliminated from the visualization.
 
@@ -94,11 +94,11 @@ With the inventory of bicycles in constant movement, it is important to understa
 
 * Starting with the **Peak Hours for starting and ending trips**: the number of trips that start and stop occur within the same hour for the most part.  *This speaks to the fact the average trip duration is well within the hour time frame.*
 
-![inventory](./images/inventory_citibike.png)
+![inventory](./Images/inventory_citibike.png)
 
 * Pulling the top 30 Start Locations (where demand is high) and the top 30 End Locations (inventory is returned), it appears that with some exception, **a comparable number of bicycles are being returned to the top Starting locations**.
 
-![inventory](./images/inventory_citibike2.png)
+![inventory](./Images/inventory_citibike2.png)
 
 While this speaks to number of trips (i.e. bicycles in use), it does not capture the percentage or number of trips where the specific bike (i.e. BikeID) is being returned to the same Station. 
 
